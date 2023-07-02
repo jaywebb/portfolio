@@ -33,7 +33,7 @@ img {
 }
 #header div {
 	margin: 0 auto;
-	width: 940px;
+	width: 800px;
 }
 
 #header div ul {
@@ -87,14 +87,14 @@ img {
 }
 #body div#background {
 	background: #FFFFFF url(../images/bg-content.jpg) no-repeat center bottom;
-	height: 320px;
+	height: 220px;
 	padding: 0;
 	width: auto;
 }
 #body div#background div {
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 55px 0 80px;
+	padding: 5px 0 80px 100px;
 	width: 940px;
 }
 #body div#background div div {
@@ -174,7 +174,7 @@ p a:hover {
 	margin: 0 auto;
 	min-height: 400px;
 	padding: 0 0 42px;
-	width: 940px;
+	width: 800px;
 }
 #body div ul li {
 	display: block;
@@ -201,8 +201,8 @@ p a:hover {
 }
 #body div ul li div {
 	float: right;
-	padding: 0;
-	width: 592px;
+	padding: 0 50px 0 0;
+	width: 392px; 
 }
 #body div#section ul li div p {
 	color: #1a130f;
@@ -222,15 +222,15 @@ p a:hover {
 	color: #EEB58C;
 }
 #body div ul li div a.readmore {
-	color: #585758;
+	color: #b46e40;
 	display: inline-block;
-	font-size: 12px;
+	font-size: 14px;
 	font-style: italic;
 	line-height: 22px;
 	text-decoration: none;
 }
 #body div ul li div a.readmore:hover {
-	color: #b4b3b4;
+	color: #1a1201;
 }
 #footer ul li a:hover {
 	color: #b6834f;
