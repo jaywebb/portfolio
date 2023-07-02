@@ -35,13 +35,7 @@ img {
 	margin: 0 auto;
 	width: 940px;
 }
-/*#header div a.logo {
-	background: url(../images/dogs.jpg) no-repeat center top;
-	display: block;
-	height: 0px;
-	text-indent: -99999px;
-}
-*/
+
 #header div ul {
 	list-style: none;
 	margin: 5 0 0 0;
@@ -93,7 +87,7 @@ img {
 }
 #body div#background {
 	background: #FFFFFF url(../images/bg-content.jpg) no-repeat center bottom;
-	min-height: 420px;
+	height: 320px;
 	padding: 0;
 	width: auto;
 }
@@ -113,15 +107,17 @@ img {
 	width: 520px;
 }
 #body div#background div div div h1 {
-	color: #eeb58c;
+	color: #a17235;
 	font-size: 48px;
 	font-weight: normal;
 	line-height: 50px;
 	margin: 0;
 }
 #body div#background div p {
-	color: #bebebe;
-	line-height: 30px;
+	color: #09101846;
+	font-weight:500;
+	font-size: 20px;
+	line-height: 60px;
 	margin: 15px 0 0;
 	text-align: justify;
 }
@@ -169,7 +165,7 @@ p a:hover {
 	width: 320px;
 }
 #body div#section {
-	background: #0b080c;
+	background: #cfd3d6;
 	padding: 0;
 	width: 100%;
 }
@@ -209,7 +205,7 @@ p a:hover {
 	width: 592px;
 }
 #body div#section ul li div p {
-	color: #eeb58c;
+	color: #1a130f;
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 30px;
