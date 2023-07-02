@@ -82,7 +82,7 @@ img {
 	padding: 0 28px 0 140px;
 }
 #body {
-	background: #cac8c8 url(../images/bg-content2.png) repeat-x left top;
+	background: #cac8c8;
 	width: 100%;
 }
 #body div#background {
