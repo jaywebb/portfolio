@@ -72,7 +72,7 @@ img {
 #header div ul li a.home {
 	padding: 0 28px 0 10px;
 }
-#header div ul li a.about {
+#header div ul li a.projects {
 	padding: 0 28px 0 55px;
 }
 #header div ul li a.blog {
@@ -132,11 +132,11 @@ p a:hover {
 #body div div#content div p a:hover {
 	text-decoration: underline;
 }
-#body div#background div div.about {
+#body div#background div div.projects {
 	float: left;
 	padding: 0;
 }
-#body div#background div div.about h3 {
+#body div#background div div.projects h3 {
 	color: #bebebe;
 	font-size: 16px;
 	font-style: italic;
@@ -145,10 +145,10 @@ p a:hover {
 	margin: 34px 0 0;
 	text-transform: uppercase;
 }
-#body div#background div div.about h3:first-child {
+#body div#background div div.projects h3:first-child {
 	margin: 0;
 }
-#body div#background div div.about p {
+#body div#background div div.projects p {
 	font-size: 12px;
 	line-height: 24px;
 	margin: 0;
