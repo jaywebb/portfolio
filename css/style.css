@@ -24,6 +24,10 @@ a {
 img {
 	border: 0;
 }
+
+/* 
+Main Header
+*/
 #header {
 	background: url(../images/bg-gray1.png) repeat-x left top;
 	height: 50px;
@@ -81,6 +85,19 @@ img {
 #header div ul li a.services {
 	padding: 0 28px 0 140px;
 }
+
+
+#body div ul  a.backLink {
+	text-decoration: none;
+	color:#a17235;
+
+}
+#body div ul a.backLink:hover  {
+	color: #161614;
+
+}
+
+
 #body {
 	background: #cac8c8;
 	width: 100%;
@@ -239,7 +256,7 @@ p a:hover {
 	width: 870px;
 }
 #body div#blogsection ul li:first-child {
-	height: 280px;
+	height: 365px;
 }
 #body div#blogsection ul li {
 	height: 220px;
