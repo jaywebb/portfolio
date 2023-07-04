@@ -23,7 +23,15 @@ a {
 img {
 	border: 0;
 }
-
+* span {
+		overflow: hidden;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 4;
+			/* start showing ellipsis when 3rd line is reached */
+			white-space:normal;
+			/* let the text wrap preserving spaces */
+}
 /* 
 Main Header
 */
@@ -216,13 +224,13 @@ Main Page Body Header
 	display: block;
 	/* height: 280px; */
 	overflow: hidden;
-	padding: 0 0 0;
+	padding: 0 0 20px;
 }
 #body div ul li:first-child {
 	padding: 66px 0 0;
 }
 #body div#section ul li:first-child {
-	padding: 16px 0 0;
+	padding: 16px 0 16px;
 }
 #body div ul li a img {
 	border: 3px solid #f2f1e6;
@@ -401,8 +409,8 @@ Blog Section
 Image Background for Blog Page
 */
 #body div#blogImage {
-
-	background: url(../images/projectImage1.jpg) no-repeat 0 -50px;
+	background-repeat: no-repeat; 
+	background-position: 0 -50px;
 	margin: auto;
 	padding: 90px 0 90px;
 }
